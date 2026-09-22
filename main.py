@@ -1,10 +1,5 @@
 
 
-
-
-from tokenize import Name
-
-
 class AssignmentSubmission:
     def __init__(self, student_name: str, student_id: str, assignment_title: str, due_date: str):
         self._assignment_title = assignment_title
