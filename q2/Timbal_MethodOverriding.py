@@ -38,9 +38,9 @@ class PhilHealthPatient(Patient):
         return super().calculate_bill() * 0.85
 
 
-regular_patient = Patient("Venice Gonzales", 15000)
-senior_patient = SeniorPatient("Mahn Natividad", 15000)
-philhealth_patient = PhilHealthPatient("Zoe Caballero", 15000)
+regular_patient = Patient("Juan Dela Cruz", 15000)
+senior_patient = SeniorPatient("Maria Santos", 15000)
+philhealth_patient = PhilHealthPatient("Pedro Reyes", 15000)
 
 print("\n----Hospital Billing System----\n")
 
