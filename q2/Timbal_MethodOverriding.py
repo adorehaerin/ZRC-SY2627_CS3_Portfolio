@@ -21,7 +21,6 @@ class Patient:
         return self.__bill_amount
 
 
-# Child class for senior citizens
 class SeniorPatient(Patient):
     def __init__(self, name, bill_amount):
         super().__init__(name, bill_amount)
